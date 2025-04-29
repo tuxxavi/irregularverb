@@ -10,5 +10,5 @@ Our app is the perfect tool for students of all levels who want to improve their
 - Offline mode: learn anytime, anywhere
 
 
-[VG Source](https://www.vgsource.net)
-[itch.io](https://vgsource.itch.io/irregular-verbs-2)
+- [VG Source](https://www.vgsource.net)
+- [itch.io](https://vgsource.itch.io/irregular-verbs-2)
