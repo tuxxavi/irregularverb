@@ -1,6 +1,6 @@
 # Master English Irregular Verbs Easily!
 
-Our app is the perfect tool for students of all levels who want to improve their English grammar. Learn, practice, and memorize the most common irregular verbs with clear explanations, real-life examples, and interactive exercises.
+## Our app is the perfect tool for students of all levels who want to improve their English grammar. Learn, practice, and memorize the most common irregular verbs with clear explanations, real-life examples, and interactive exercises.
 
 
 - Over 200 irregular verbs
@@ -9,6 +9,8 @@ Our app is the perfect tool for students of all levels who want to improve their
 - Progress tracking
 - Offline mode: learn anytime, anywhere
 
+# [VG Source](https://www.vgsource.net)
+https://www.vgsource.net
 
-- [VG Source](https://www.vgsource.net)
-- [itch.io](https://vgsource.itch.io/irregular-verbs-2)
+# [itch.io](https://vgsource.itch.io/irregular-verbs-2)
+https://vgsource.itch.io/irregular-verbs-2
