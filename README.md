@@ -1,16 +1,14 @@
-# ingles
+# Master English Irregular Verbs Easily!
 
-A new Flutter project.
+Our app is the perfect tool for students of all levels who want to improve their English grammar. Learn, practice, and memorize the most common irregular verbs with clear explanations, real-life examples, and interactive exercises.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+- Over 200 irregular verbs
+- Games and quizzes to reinforce your learning
+- Audio pronunciation by native speakers
+- Progress tracking
+- Offline mode: learn anytime, anywhere
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[VG Source](https://www.vgsource.net)
+[itch.io](https://vgsource.itch.io/irregular-verbs-2)
