@@ -9,6 +9,9 @@
 - Progress tracking
 - Offline mode: learn anytime, anywhere
 
+# WEB
+[PLAY](http://irregular.vgsource.net)
+
 # [VG Source](https://www.vgsource.net)
 https://www.vgsource.net
 
