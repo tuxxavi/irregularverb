@@ -2,6 +2,7 @@
 
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:irregular_verbs/find_verb_screen.dart';
 import 'package:irregular_verbs/verb_game_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -17,7 +18,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    loadBestScore();
   }
 
   Future<void> loadBestScore() async {
@@ -29,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    loadBestScore();
     return Scaffold(
       body: Center(
         child: Padding(
@@ -44,33 +45,57 @@ class _HomeScreenState extends State<HomeScreen> {
               SizedBox(height: 10),
               Image.asset("assets/logo.png"),
               SizedBox(height: 50),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
-                  shape: StadiumBorder(),
+              SizedBox(width: 220,
+                child: ElevatedButton(
+                  
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.grey[800],
+                    padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+                    shape: StadiumBorder(),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => VerbGameScreen(trainingMode: false)),
+                    );
+                  },
+                  child: Text('Start Game', style: TextStyle(fontSize: 20)),
                 ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (_) => VerbGameScreen(trainingMode: false)),
-                  );
-                },
-                child: Text('Start Game', style: TextStyle(fontSize: 20)),
               ),
               SizedBox(height: 20),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.grey[800],
-                  padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
-                  shape: StadiumBorder(),
+              SizedBox(width: 220,
+                child: ElevatedButton(
+                  
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.grey[800],
+                    padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+                    shape: StadiumBorder(),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => VerbGameScreen(trainingMode: true)),
+                    );
+                  },
+                  child: Text('Training Mode', style: TextStyle(fontSize: 18)),
                 ),
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (_) => VerbGameScreen(trainingMode: true)),
-                  );
-                },
-                child: Text('Training Mode', style: TextStyle(fontSize: 18)),
+              ),
+              SizedBox(height: 20), SizedBox(width: 220,
+                child: ElevatedButton(
+                  
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.grey[800],
+                    padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+                    shape: StadiumBorder(),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => FindVerbScreen()),
+                    );
+                  },
+                  child: Text('Find', style: TextStyle(fontSize: 20)),
+                ),
               ),
               SizedBox(height: 40),
               Text(
